@@ -1,6 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoskildeDyreinternat", "RoskildeDyreinternat\RoskildeDyreinternat.csproj", "{A42C4C28-BCE7-4722-AAE6-C5A8B4E5594C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoskildeDyreinternat.web", "RoskildeDyreinternat.web\RoskildeDyreinternat.web.csproj", "{A42C4C28-BCE7-4722-AAE6-C5A8B4E5594C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoskildeDyreinternat.Domain", "RoskildeDyreinternat.Domain\RoskildeDyreinternat.Domain.csproj", "{BEAFE841-18D5-440D-803F-00B3760279FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoskildeDyreinternat.Infrastructure", "RoskildeDyreinternat.Infrastructure\RoskildeDyreinternat.Infrastructure.csproj", "{E8EEA78B-24A9-424A-B1C5-7BAABFB78DBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoskildeDyreinternat.ConsoleApp", "RoskildeDyreinternat.ConsoleApp\RoskildeDyreinternat.ConsoleApp.csproj", "{FF160A79-D5FB-4AC8-A38E-6D0D2AE0EBA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +18,17 @@ Global
 		{A42C4C28-BCE7-4722-AAE6-C5A8B4E5594C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A42C4C28-BCE7-4722-AAE6-C5A8B4E5594C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A42C4C28-BCE7-4722-AAE6-C5A8B4E5594C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEAFE841-18D5-440D-803F-00B3760279FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEAFE841-18D5-440D-803F-00B3760279FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEAFE841-18D5-440D-803F-00B3760279FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEAFE841-18D5-440D-803F-00B3760279FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8EEA78B-24A9-424A-B1C5-7BAABFB78DBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8EEA78B-24A9-424A-B1C5-7BAABFB78DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8EEA78B-24A9-424A-B1C5-7BAABFB78DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8EEA78B-24A9-424A-B1C5-7BAABFB78DBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF160A79-D5FB-4AC8-A38E-6D0D2AE0EBA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF160A79-D5FB-4AC8-A38E-6D0D2AE0EBA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF160A79-D5FB-4AC8-A38E-6D0D2AE0EBA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF160A79-D5FB-4AC8-A38E-6D0D2AE0EBA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

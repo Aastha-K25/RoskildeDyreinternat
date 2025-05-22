@@ -7,4 +7,9 @@
         <RootNamespace>RoskildeDyreinternat</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\RoskildeDyreinternat.Domain\RoskildeDyreinternat.Domain.csproj" />
+      <ProjectReference Include="..\RoskildeDyreinternat.Infrastructure\RoskildeDyreinternat.Infrastructure.csproj" />
+    </ItemGroup>
+
 </Project>
